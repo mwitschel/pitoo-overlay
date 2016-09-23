@@ -1,0 +1,3 @@
+# required by usbutils (argument)
+=dev-libs/libusb-1.0.18 ~arm
+

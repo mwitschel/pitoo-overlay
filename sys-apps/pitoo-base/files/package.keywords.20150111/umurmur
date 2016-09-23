@@ -1,0 +1,9 @@
+# required by umurmur (argument)
+=media-sound/umurmur-0.2.13 **
+# required by media-sound/umurmur-0.2.13
+# required by umurmur (argument)
+=dev-libs/protobuf-c-0.15 **
+# required by media-sound/umurmur-0.2.13
+# required by umurmur (argument)
+=dev-libs/libconfig-1.4.9-r1 **
+

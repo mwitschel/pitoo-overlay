@@ -1,0 +1,12 @@
+Title: Hallo World! pitoo-2013
+Author: Matthias Witschel
+Content-Type: text/plain
+Posted: 2013-07-11
+Revision: 1
+News-Item-Format: 1.0
+
+Hallo World!
+This is pitoo binary gentoo for the awesome Raspberry Pi
+board.
+
+Have FUN!

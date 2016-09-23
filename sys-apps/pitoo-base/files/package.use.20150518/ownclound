@@ -1,0 +1,9 @@
+# required by www-apps/owncloud-5.0.12
+# required by owncloud (argument)
+=dev-lang/php-5.5.4 curl gd
+# required by www-apps/owncloud-5.0.12
+# required by @selected
+# required by @world (argument)
+>=dev-lang/php-5.5.7 curl gd
+
+

@@ -1,0 +1,2 @@
+dev-lang/php sqlite zip xmlwriter cgi pdo sockets fpm cli apache2 -zend -phar cli -imap -jsnon
+app-admin/eselect-php fpm apache2

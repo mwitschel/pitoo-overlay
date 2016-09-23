@@ -1,0 +1,1 @@
+EMERGE_DEFAULT_OPTS="--with-bdeps y --buildpkg --buildpkg-exclude 'pitoo-base raspberrypi-sources'"

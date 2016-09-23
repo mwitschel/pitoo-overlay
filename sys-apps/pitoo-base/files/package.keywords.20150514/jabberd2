@@ -1,0 +1,5 @@
+# required by net-im/jabberd2-2.2.14
+# required by jabberd2 (argument)
+=net-libs/udns-0.2 **
+# required by jabberd2 (argument)
+net-im/jabberd2 **

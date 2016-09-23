@@ -1,0 +1,5 @@
+# required by www-servers/nginx-1.4.1-r5[vim-syntax]
+# required by nginx (argument)
+=app-vim/nginx-syntax-0.3.2 ~arm
+# required by nginx (argument)
+=www-servers/nginx-1.4.1-r5 ~arm

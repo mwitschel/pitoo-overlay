@@ -1,0 +1,5 @@
+# required by sys-auth/polkit-0.112[-systemd]
+# required by lxde-base/lxsession-0.4.9.2-r1
+# required by lxde-base/lxde-meta-0.5.5-r3
+>=sys-auth/consolekit-0.4.6 policykit
+

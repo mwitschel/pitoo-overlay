@@ -1,0 +1,5 @@
+# required by gallery (argument)
+=www-apps/gallery-3.0.9 **
+# required by =www-apps/gallery-2.3.2 (argument)
+=www-apps/gallery-2.3.2 **
+

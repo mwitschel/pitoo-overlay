@@ -1,0 +1,34 @@
+#!/sbin/runscript
+# Copyright 1999-2006 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/net-misc/xrdp/files/xrdp-initd,v 1.1 2006/08/02 00:58:36 chutzpah Exp $
+
+depend() {
+	use net logger
+}
+
+start() {
+	ebegin "Starting X remote desktop daemon"
+	start-stop-daemon --start --pidfile /var/run/xrdp.pid --exec /usr/sbin/xrdp > /dev/null
+	ret=$?
+	eend $ret
+	[[ $ret != 0 ]] && return $ret
+
+	ebegin "Starting remote desktop session manager"
+	start-stop-daemon --start --pidfile /var/run/xrdp-sesman.pid --exec /usr/sbin/xrdp-sesman > /dev/null
+	ret=$?
+	eend $ret
+	return $ret
+}
+
+stop() {
+	ebegin "Stopping X remote desktop daemon"
+	start-stop-daemon --stop --pidfile /var/run/xrdp.pid
+	eend $?
+
+	ebegin "Stopping remote desktop session manager"
+	start-stop-daemon --stop --pidfile /var/run/xrdp-sesman.pid
+	ret=$?
+	eend $ret
+	return $ret
+}

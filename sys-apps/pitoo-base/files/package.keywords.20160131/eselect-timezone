@@ -1,0 +1,3 @@
+# required by eselect-timezone (argument)
+# move app-admin/eselect-timezone app-eselect/eselect-timezone
+=app-eselect/eselect-timezone-0.2 ~arm

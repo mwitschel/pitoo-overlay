@@ -1,0 +1,10 @@
+# required by net-misc/sks-1.1.5
+# required by sks (argument)
+=dev-ml/cryptokit-1.9 **
+# required by dev-ml/cryptokit-1.9
+# required by net-misc/sks-1.1.5
+# required by sks (argument)
+=dev-ml/findlib-1.4 ~arm
+# required by sks (argument)
+=net-misc/sks-1.1.5 **
+

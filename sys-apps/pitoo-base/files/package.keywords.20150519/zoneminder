@@ -1,0 +1,6 @@
+# required by zoneminder (argument)
+=www-misc/zoneminder-1.27.0 **
+# required by www-misc/zoneminder-1.27.0[mmap]
+# required by zoneminder (argument)
+=dev-perl/Sys-Mmap-0.160.0 **
+

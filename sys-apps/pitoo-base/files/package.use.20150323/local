@@ -1,0 +1,16 @@
+# required by @world (argument)
+net-dns/avahi dbus
+# required by lighttpd for owncloud
+www-servers/lighttpd 
+# required by net-print/cups-1.5.2-r4
+# required by cups (argument)
+app-text/ghostscript-gpl cups
+# required by app-text/evince-2.32.0-r4
+# required by @pitoo-gui (argument)
+app-text/poppler cairo
+# required by dev-lang/php-5.4.17
+# required by www-apps/owncloud-5.0.7
+# required by @selected
+# required by @world (argument)
+net-fs/cifs-utils acl caps -ads -creds -upcall
+

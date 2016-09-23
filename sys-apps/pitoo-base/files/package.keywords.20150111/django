@@ -1,0 +1,13 @@
+# required by virtual/python-imaging-1[python_targets_python2_7] 
+# required by dev-python/django-9999 
+# required by django (argument) 
+=dev-python/pillow-2.0.0-r1 ~arm 
+# required by dev-python/django-9999[mysql] 
+# required by django (argument) 
+=dev-python/mysql-python-1.2.3-r1 ~arm 
+# required by dev-python/django-9999 
+# required by django (argument) 
+=virtual/python-imaging-1 ~arm 
+# required by django (argument) 
+=dev-python/django-9999 ** 
+

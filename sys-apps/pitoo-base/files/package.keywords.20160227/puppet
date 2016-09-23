@@ -1,0 +1,12 @@
+# required by puppet (argument) 
+app-admin/puppet ** 
+# required by app-admin/puppet-3.2.2[ruby_targets_ruby19] 
+# required by puppet (argument) 
+=dev-ruby/facter-1.7.1-r1 ** 
+# required by app-admin/puppet-3.2.2[ruby_targets_ruby18] 
+# required by puppet (argument) 
+=dev-ruby/hiera-1.2.1 ** 
+# required by app-admin/puppet-3.2.2[vim-syntax] 
+# required by puppet (argument) 
+=app-vim/puppet-syntax-3.0.1 **
+

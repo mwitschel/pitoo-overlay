@@ -1,0 +1,4 @@
+app-text/evince ~arm
+x11-themes/gnome-icon-theme-symbolic ~arm
+=x11-themes/adwaita-icon-theme-3.14.1-r1 ~arm
+=x11-libs/gtk+-3.14.10 ~arm

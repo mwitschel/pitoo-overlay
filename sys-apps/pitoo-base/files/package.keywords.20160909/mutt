@@ -1,0 +1,3 @@
+# required by mutt (argument)
+=mail-client/mutt-1.5.21-r12 ~arm
+=mail-client/mutt-1.5.23-r6 ~arm

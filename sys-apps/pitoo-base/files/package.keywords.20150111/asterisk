@@ -1,0 +1,17 @@
+#required by net-misc/asterisk-11.4.0 
+# required by net-misc/asterisk-core-sounds-1.4.22 
+=net-misc/asterisk-extra-sounds-1.4.11 ** 
+# required by net-misc/asterisk-11.4.0 
+# required by net-misc/asterisk-moh-opsound-2.03 
+=net-misc/asterisk-core-sounds-1.4.22 ** 
+# required by net-misc/asterisk-11.4.0 
+# required by net-misc/asterisk-core-sounds-1.4.22 
+=net-misc/asterisk-moh-opsound-2.03 ** 
+# required by net-misc/asterisk-11.4.0[-gtalk,-calendar,jabber] 
+# required by net-misc/asterisk-core-sounds-1.4.22 
+=dev-libs/iksemel-1.4 ** 
+=net-libs/libsrtp-1.4.4_p20121108 ~arm
+# required by net-misc/asterisk-extra-sounds-1.4.11 
+=net-misc/asterisk-11.4.0 **
+=net-misc/asterisk-11.5.1 **
+=net-misc/asterisk-11.11.0 **

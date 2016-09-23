@@ -1,0 +1,8 @@
+>=virtual/udev-208 gudev
+=sys-fs/udev-208 gudev
+=sys-fs/udev-212-r1 gudev
+=sys-fs/udev-215 gudev
+=sys-fs/udev-215-r1 gudev
+=sys-fs/udev-216 gudev
+sys-fs/udev gudev
+

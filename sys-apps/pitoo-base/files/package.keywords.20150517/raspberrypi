@@ -1,0 +1,8 @@
+# required by raspberrypi-userland (argument) 
+media-libs/raspberrypi-userland ~arm
+# required by raspberrypi-image (argument)
+sys-kernel/raspberrypi-image ~arm
+# required by raspberrypi-firmware (argument)
+sys-boot/raspberrypi-firmware ~arm
+
+

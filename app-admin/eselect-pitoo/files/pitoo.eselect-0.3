@@ -1,0 +1,150 @@
+# -*-eselect-*-  vim: ft=eselect
+
+DESCRIPTION="Manage the pitoo snapshot link"
+MAINTAINER="mwitsch@gmail.com"
+VERSION="07102013"
+
+find_targets() {
+	local file
+	for file in /usr/pitoo/snapshots/portage-[[:digit:]]*.sqfs
+	do
+		[[ -f ${file} ]] && basename "$file"
+	done
+}
+
+is_mounted() {
+	if [[ $(/bin/mount) != *"/usr/portage"* ]] 
+	then
+		write_warning_msg "Snapshot is not mounted"
+	fi
+}
+
+describe_fetch() {
+	echo "Fetch latest Pitoo snapshot file and set it as current"
+}
+
+do_fetch() {
+	
+	local current=$(wget -q -O - http://guayas.witschel.ec/pitoo/current "$@") 
+
+	write_list_start "Current snapshot is: ${current}"
+
+	[[ -d /usr/pitoo/snapshots ]] || mkdir -p /usr/pitoo/snapshots
+
+	if [ ! -f /usr/pitoo/snapshots/${current} ]
+	then
+		wget -O /usr/pitoo/snapshots/${current} http://guayas.witschel.ec/pitoo/${current} 
+		do_set ${current}
+	else
+		die -q "You already have the latest snapshot"
+	fi
+	
+
+}
+
+describe_list() {
+	echo "List available Pitoo portage snapshots"
+}
+
+do_list() {
+	local i targets=( $(find_targets) )
+	write_list_start "Available pitoo portage snapshots:"
+	for (( i = 0; i < ${#targets[@]}; i++ ))
+	do
+		[[ ${targets[i]} = \
+		$(basename "$(canonicalise "/usr/pitoo/snapshots/portage.sqfs")") ]] \
+		&& targets[i]=$(highlight_marker "${targets[i]}") 
+	done
+	write_numbered_list -m "(none found)" "${targets[@]}"
+	is_mounted
+}
+
+describe_show() {
+	echo "Show active Pitoo snapshot symlink"
+}
+
+do_show() {
+	write_list_start "Current pitoo snapshot symling:"
+	if [[ -L /usr/pitoo/snapshots/portage.sqfs ]]
+	then
+		local pitoo=$(canonicalise "/usr/pitoo/snapshots/portage.sqfs")
+		write_kv_list_entry "${pitoo%/}" ""
+	else
+		write_kv_list_entry "(unset)" ""
+	fi
+	is_mounted
+}
+
+describe_unmount() {
+	echo "Unmount Pitoo snapshot"
+}
+
+do_unmount() {
+	if [[ $(/bin/mount) != *"/usr/portage"* ]]
+	then
+		write_warning_msg "Snapshot is not mounted"
+	else
+		write_list_start "Unmounting pitoo portage snapshot"
+		umount ${EROOT}/usr/portage || die -q "Could not unmount snapshot"
+	fi
+}
+
+describe_mount() {
+	echo "Mount Pitoo snapshot"
+}
+
+do_mount() {
+	if [[ $(/bin/mount) == *"/usr/portage"* ]]
+	then
+		write_warning_msg "Snapshot is already mounted"
+	else
+		[[ -e ${EROOT}/usr/pitoo/snapshots/portage.sqfs ]] || die -q "Snapshot link does not exist"
+		write_list_start "Mounting pitoo portage snapshot"
+		mount ${EROOT}/usr/pitoo/snapshots/portage.sqfs ${EROOT}/usr/portage || die -q "Could not mount snapshot"
+	fi
+}
+
+remove_symlink() {
+	rm -f "${EROOT}/usr/pitoo/snapshots/portage.sqfs"
+}
+
+set_symlink() {
+	local target=$1
+
+	if is_number "${target}"
+	then
+		local targets=( $(find_targets) )
+		target=${targets[target-1]}
+	fi
+
+	write_list_start "setting link to ${target}"
+
+	[[ -z ${target} || ! -f ${EROOT}/usr/pitoo/snapshots/${target} ]] && die -q "Target \"$1\" does not seem valid!"
+
+	ln -s "${target}" "${EROOT}/usr/pitoo/snapshots/portage.sqfs"
+}
+
+describe_set() {
+	echo "Set Pitoo snapshot symlink to a specific snapshot file"
+}
+
+do_set() {
+	[[ -z $1 ]] && die -q "You didn't give me a target"
+	[[ $# -gt 1 ]] && die -q "Too many parameters"
+
+	do_unmount 
+	remove_symlink || die -q "Could not remove old symling"
+	set_symlink $1 || die -q "Could not set new symlink"
+	do_mount
+}
+
+describe_update() {
+	echo "Set Pitoo symlink to latest locally available snapshot"
+}
+
+do_update() {
+    [[ $# -gt 1 ]] && die -q "update does not take arguments"
+	
+	local targets=( $(find_targets) )
+	do_set ${#targets[@]}
+}

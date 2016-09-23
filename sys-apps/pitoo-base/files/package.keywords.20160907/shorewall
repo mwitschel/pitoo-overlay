@@ -1,0 +1,11 @@
+# required by net-firewall/shorewall6-lite-4.5.19
+# required by shorewall6-lite (argument)
+=net-firewall/iptables-1.4.20 ~arm
+# required by net-firewall/shorewall-lite-4.5.19
+# required by shorewall-lite (argument)
+=net-firewall/shorewall-core-4.5.19 **
+# required by shorewall-lite (argument)
+=net-firewall/shorewall-lite-4.5.19 **
+# required by shorewall6-lite (argument)
+=net-firewall/shorewall6-lite-4.5.19 **
+

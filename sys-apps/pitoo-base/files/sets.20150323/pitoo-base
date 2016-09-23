@@ -1,0 +1,16 @@
+media-libs/raspberrypi-userland
+app-admin/eselect-timezone
+sys-fs/dosfstools
+sys-fs/e2fsprogs
+app-editors/vim
+app-admin/syslog-ng
+net-misc/ntp
+app-admin/logrotate
+app-portage/layman
+sys-apps/usbutils
+www-client/w3m
+mail-client/mailx
+app-misc/screen
+net-wireless/wpa_supplicant
+
+

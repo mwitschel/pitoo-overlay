@@ -1,0 +1,3 @@
+# required by noip-updater (argument)
+=net-dns/noip-updater-2.1.9-r1 ~arm
+

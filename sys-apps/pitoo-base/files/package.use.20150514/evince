@@ -1,0 +1,4 @@
+# required by app-text/evince-2.32.0-r4
+# required by @pitoo-gui (argument)
+##app-text/poppler cairo
+##>=dev-libs/glib-2.42.2 dbus

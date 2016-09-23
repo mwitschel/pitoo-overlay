@@ -1,0 +1,7 @@
+# required by unison (argument)
+=net-misc/unison-2.45.4 ~arm
+# required by net-misc/unison-2.45.4
+# required by unison (argument)
+# move app-admin/eselect-unison app-eselect/eselect-unison
+=app-eselect/eselect-unison-0.3 ~arm
+

@@ -1,0 +1,6 @@
+# required by www-apps/trac-1.0.1
+# required by trac (argument)
+=dev-python/genshi-0.7 **
+# required by trac (argument)
+=www-apps/trac-1.0.1 **
+

@@ -1,0 +1,3 @@
+# required by openswan (argument)
+=net-misc/openswan-2.6.39 **
+

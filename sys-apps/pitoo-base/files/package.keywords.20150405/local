@@ -1,0 +1,53 @@
+# for lxdm
+lxde-base/lxdm ~arm
+# required by eselect-timezone (argument)
+=app-admin/eselect-timezone-0.2 ~arm
+# required by w3m (argument)
+=www-client/w3m-0.5.3-r3 ~arm
+# required by owncloud (argument)
+=www-apps/owncloud-5.0.7 **
+# required by mutt (argument)
+=mail-client/mutt-1.5.21-r12 ~arm
+# required by net-im/jabberd2-2.2.14
+# required by jabberd2 (argument)
+=net-libs/udns-0.2 **
+# required by jabberd2 (argument)
+net-im/jabberd2 **
+# required by flvstreamer (argument)
+=media-video/flvstreamer-2.1c **
+
+
+# required by xsane (argument)
+=media-gfx/xsane-0.998-r1 **
+# required by sane-frontends (argument)
+=media-gfx/sane-frontends-1.0.14 **
+
+# required by media-gfx/gphoto2-2.5.0[ncurses]
+# required by gphoto2 (argument)
+=dev-libs/cdk-5.0.20120323 **
+# required by media-gfx/gphoto2-2.5.0
+# required by gphoto2 (argument)
+=media-libs/libgphoto2-2.5.1.1 ~arm
+# required by gphoto2 (argument)
+=media-gfx/gphoto2-2.5.0 **
+
+# needed by gentoo-mirror-sync
+=app-admin/gentoo-rsync-mirror-1.0-r5 **
+
+# needed by clamav
+=app-antivirus/clamav-0.97.8 ~arm
+
+
+# required by iftop (argument)
+=net-analyzer/iftop-1.0_pre2 **
+
+# required by fail2ban (argument)
+=net-analyzer/fail2ban-0.8.10-r2 **
+
+# required by net-im/ejabberd-2.1.13-r1
+# required by ejabberd (argument)
+=dev-lang/erlang-15.2.3.1 ~arm
+# required by ejabberd (argument)
+=net-im/ejabberd-2.1.13-r1 ~arm
+
+

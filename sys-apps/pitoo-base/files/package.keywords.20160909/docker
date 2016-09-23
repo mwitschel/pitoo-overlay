@@ -1,0 +1,23 @@
+app-emulation/docker **
+# required by app-emulation/containerd-9999::gentoo
+# # required by app-emulation/docker-9999::gentoo
+# # required by app-emulation/docker (argument)
+=app-emulation/runc-1.0.0_rc1 **
+# # required by app-emulation/docker-9999::gentoo
+# # required by app-emulation/docker (argument)
+=dev-go/go-md2man-1.0.3 **
+# # required by dev-go/go-md2man-1.0.3::gentoo
+# # required by app-emulation/docker-9999::gentoo
+# # required by app-emulation/docker (argument)
+=dev-go/blackfriday-9999 **
+# # required by app-emulation/docker (argument)
+=app-emulation/docker-9999 **
+# # required by app-emulation/docker-9999::gentoo
+# # required by app-emulation/docker (argument)
+=app-emulation/containerd-9999 **
+# # required by dev-go/blackfriday-9999::gentoo
+# # required by dev-go/go-md2man-1.0.3::gentoo
+# # required by app-emulation/docker-9999::gentoo
+# # required by app-emulation/docker (argument)
+=dev-go/sanitized-anchor-name-9999 **
+#

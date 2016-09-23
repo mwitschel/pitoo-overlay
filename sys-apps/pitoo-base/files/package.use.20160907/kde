@@ -1,0 +1,4 @@
+kde-base/kaccessible -speechd
+kde-base/kde-meta -accessibility
+kde-apps/marble kde
+>=dev-qt/qtsql-4.8.5:4 qt3support
