@@ -1,0 +1,25 @@
+=app-emulation/qemu-2.7.0-r7 **
+
+# required by sys-firmware/vgabios-0.7a-r1::gentoo[-binary]
+# required by app-emulation/qemu-9999::gentoo[pin-upstream-blobs,-qemu_softmmu_targets_i386,qemu_softmmu_targets_x86_64]
+# required by qemu (argument)
+=sys-devel/dev86-0.16.21-r2 **
+# required by app-emulation/qemu-9999::gentoo[-qemu_softmmu_targets_i386,qemu_softmmu_targets_x86_64]
+# required by qemu (argument)
+=sys-firmware/ipxe-1.0.0_p20160620 **
+# required by app-emulation/qemu-9999::gentoo[pin-upstream-blobs,-qemu_softmmu_targets_i386,qemu_softmmu_targets_x86_64]
+# required by qemu (argument)
+=sys-firmware/seabios-1.8.2 ~arm
+# required by app-emulation/qemu-9999::gentoo[pin-upstream-blobs,-qemu_softmmu_targets_i386,qemu_softmmu_targets_x86_64]
+# required by qemu (argument)
+=sys-firmware/vgabios-0.7a-r1 **
+# required by sys-devel/dev86-0.16.21-r2::gentoo
+# required by sys-firmware/vgabios-0.7a-r1::gentoo[-binary]
+# required by app-emulation/qemu-9999::gentoo[pin-upstream-blobs,-qemu_softmmu_targets_i386,qemu_softmmu_targets_x86_64]
+# required by qemu (argument)
+=sys-devel/bin86-0.16.21 **
+# required by app-emulation/qemu-9999::gentoo[pin-upstream-blobs,-qemu_softmmu_targets_i386,qemu_softmmu_targets_x86_64]
+# required by qemu (argument)
+=sys-firmware/sgabios-0.1_pre8 ~arm
+
+
