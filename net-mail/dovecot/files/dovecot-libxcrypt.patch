@@ -1,0 +1,30 @@
+--- configure.old	2017-02-26 12:13:15.420475213 +0100
++++ configure	2017-02-26 12:12:03.980762622 +0100
+@@ -24927,13 +24927,13 @@
+ 
+ else
+ 
+-  { $as_echo "$as_me:${as_lineno-$LINENO}: checking for crypt in -lcrypt" >&5
+-$as_echo_n "checking for crypt in -lcrypt... " >&6; }
++  { $as_echo "$as_me:${as_lineno-$LINENO}: checking for crypt in -lxcrypt" >&5
++$as_echo_n "checking for crypt in -lxcrypt... " >&6; }
+ if ${ac_cv_lib_crypt_crypt+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lcrypt  $LIBS"
++LIBS="-lxcrypt  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -24965,8 +24965,8 @@
+ $as_echo "$ac_cv_lib_crypt_crypt" >&6; }
+ if test "x$ac_cv_lib_crypt_crypt" = xyes; then :
+ 
+-    AUTH_LIBS="-lcrypt $AUTH_LIBS"
+-    CRYPT_LIBS="-lcrypt"
++    AUTH_LIBS="-lxcrypt $AUTH_LIBS"
++    CRYPT_LIBS="-lxcrypt"
+ 
+ else
+ 

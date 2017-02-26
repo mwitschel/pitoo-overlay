@@ -1,0 +1,3 @@
+# required by firefox (argument)
+>=media-libs/libpng-1.6.16 apng
+
