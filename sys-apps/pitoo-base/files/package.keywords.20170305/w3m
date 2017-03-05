@@ -1,0 +1,3 @@
+# required by w3m (argument)
+=www-client/w3m-0.5.3-r3 ~arm
+=www-client/w3m-0.5.3-r5 ~arm

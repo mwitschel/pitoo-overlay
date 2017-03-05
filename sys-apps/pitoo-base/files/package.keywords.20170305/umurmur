@@ -1,0 +1,14 @@
+# required by umurmur (argument)
+=media-sound/umurmur-0.2.13 **
+=media-sound/umurmur-0.2.16 ~arm
+# required by media-sound/umurmur-0.2.13
+# required by umurmur (argument)
+=dev-libs/protobuf-c-0.15 **
+=dev-libs/protobuf-c-1.1.1 ~arm
+=dev-libs/protobuf-2.6.1-r3 ~arm
+# required by media-sound/umurmur-0.2.13
+# required by umurmur (argument)
+=dev-libs/libconfig-1.4.9-r1 **
+
+=dev-python/python-gflags-2.0 ~arm
+=dev-python/google-apputils-0.4.0 ~arm

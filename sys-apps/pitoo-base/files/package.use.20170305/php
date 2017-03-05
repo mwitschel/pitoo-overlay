@@ -1,0 +1,3 @@
+dev-lang/php sqlite zip xmlwriter xmlreader cgi pdo sockets fpm cli apache2 -zend phar cli -imap -jsnon exif
+# move app-admin/eselect-php app-eselect/eselect-php
+app-eselect/eselect-php fpm apache2

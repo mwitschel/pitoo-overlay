@@ -1,0 +1,52 @@
+app-crypt/certbot **
+# required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/python-augeas-0.5.0 **
+# # required by app-crypt/certbot-0.8.1-r2::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/psutil-4.3.1 ~arm
+# # required by app-crypt/acme-0.8.1::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/pyrfc3339-1.0 ~arm
+# # required by app-crypt/certbot-0.8.1-r2::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+app-crypt/acme **
+# # required by certbot-apache (argument)
+=app-crypt/certbot-apache-9999 **
+# # required by app-crypt/certbot-0.8.1-r2::gentoo[python_targets_python2_7]
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/pythondialog-3.3.0-r200 ~arm
+# # required by dev-python/python-augeas-0.5.0::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=app-admin/augeas-1.6.0 **
+# # required by app-crypt/certbot-0.8.1-r2::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/parsedatetime-2.1 ~arm
+# # required by app-admin/augeas-1.6.0::gentoo
+# # required by dev-python/python-augeas-0.5.0::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=app-doc/NaturalDocs-1.52-r1 **
+# # required by app-crypt/certbot-0.8.1-r2::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/zope-component-4.3.0 ~arm
+# # required by app-crypt/certbot-0.8.1-r2::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/configobj-5.0.6 ~arm
+# # required by app-crypt/certbot-0.8.1-r2::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/configargparse-0.10.0 ~arm
+# # required by dev-python/zope-component-4.3.0::gentoo
+# # required by app-crypt/certbot-apache-9999::gentoo
+# # required by certbot-apache (argument)
+=dev-python/zope-event-4.2.0 ~arm
+
