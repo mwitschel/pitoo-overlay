@@ -1,0 +1,59 @@
+app-admin/webmin **
+
+# required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/Net-DNS-SEC-1.20.0 **
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/GraphViz-2.200.0 **
+# # required by dev-perl/Net-DNS-SEC-1.20.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/Crypt-OpenSSL-DSA-0.150.0-r1 **
+# # required by dev-perl/GraphViz-2.200.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/IPC-Run-0.940.0 **
+# # required by dev-perl/GraphViz-2.200.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/XML-XPath-1.360.0 ~arm
+# # required by dev-perl/XML-Twig-3.490.0::gentoo
+# # required by dev-perl/GraphViz-2.200.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/XML-Handler-YAWriter-0.230.0-r1 ~arm
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/MD5-2.30.0-r1 **
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/Getopt-GUI-Long-0.930.0-r1 **
+# # required by dev-perl/GraphViz-2.200.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/XML-Twig-3.490.0 ~arm
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/Sys-Hostname-Long-1.500.0 **
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=net-dns/dnssec-tools-2.2 **
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/Authen-Libwrap-0.220.0-r1 **
+# # required by dev-perl/XML-Twig-3.490.0::gentoo[nls]
+# # required by dev-perl/GraphViz-2.200.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+=dev-perl/Text-Iconv-1.700.0-r1 ~arm
+#

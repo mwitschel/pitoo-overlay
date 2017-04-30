@@ -1,0 +1,10 @@
+# required by murmur (argument)
+=media-sound/murmur-1.2.4-r2 **
+# required by dev-libs/Ice-3.5.1
+# required by media-sound/murmur-1.2.4-r2[ice]
+# required by murmur (argument)
+=dev-cpp/libmcpp-2.7.2-r1 ~arm
+# required by media-sound/murmur-1.2.4-r2[ice]
+# required by murmur (argument)
+=dev-libs/Ice-3.5.1 ~arm
+
