@@ -1,0 +1,18 @@
+# required by net-im/prosody-0.9.1-r1[ipv6]
+# required by prosody (argument)
+=dev-lua/luasocket-3.0_rc1-r2 ~arm
+# required by prosody (argument)
+=net-im/prosody-0.9.1-r1 ~arm
+# required by net-im/prosody-0.9.1-r1[ssl]
+# required by prosody (argument)
+=dev-lua/luasec-0.4.1_p20130620 ~arm
+# required by net-im/prosody-0.9.1-r1[zlib]
+# required by prosody (argument)
+=dev-lua/lua-zlib-0.2 ~arm
+# required by net-im/prosody-0.9.1-r1[mysql]
+# required by prosody (argument)
+=dev-lua/luadbi-0.5-r3 ~arm
+# required by net-im/prosody-0.9.1-r1
+# required by prosody (argument)
+=dev-lua/luaexpat-1.2.0-r1 ~arm
+
