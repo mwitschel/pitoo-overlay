@@ -1,0 +1,3 @@
+# required by raspberrypi-sources (argument)
+sys-kernel/raspberrypi-sources ~arm
+
