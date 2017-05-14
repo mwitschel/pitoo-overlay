@@ -1,0 +1,17 @@
+# required by app-emulation/docker-1.12.1::gentoo
+# # required by app-emulation/docker (argument)
+=dev-go/go-md2man-1.0.3 **
+# # required by dev-go/go-md2man-1.0.3::gentoo
+# # required by app-emulation/docker-1.12.1::gentoo
+# # required by app-emulation/docker (argument)
+=dev-go/blackfriday-9999 **
+
+# required by app-emulation/docker-9999::gentoo[container-init]
+# # required by @selected
+# # required by @world (argument)
+>=sys-process/tini-0.13.0 static
+
+# required by app-emulation/docker-1.11.0::gentoo[seccomp]
+# required by app-emulation/docker (argument)
+>=sys-libs/libseccomp-2.3.0 static-libs
+

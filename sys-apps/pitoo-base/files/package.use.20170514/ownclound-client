@@ -1,0 +1,31 @@
+#The following USE changes are necessary to proceed:
+# (see "package.use" in the portage(5) man page for more details)
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+>=dev-libs/qtkeychain-0.7.0 qt5
+# required by dev-qt/qtwebkit-5.5.1-r1::gentoo
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+>=dev-qt/qtcore-5.5.1-r1 icu
+# required by dev-qt/qtcore-5.5.1-r1::gentoo
+# required by dev-qt/qtprintsupport-5.5.1::gentoo
+# required by dev-qt/qtwebkit-5.5.1-r1::gentoo[printsupport]
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+>=dev-libs/libpcre-8.38-r1 pcre16
+# required by dev-qt/qtgui-5.5.1-r1::gentoo[xcb]
+# required by dev-qt/qtprintsupport-5.5.1::gentoo
+# required by dev-qt/qtwebkit-5.5.1-r1::gentoo[printsupport]
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+>=x11-libs/libxcb-1.12 xkb
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+>=dev-qt/qtwebkit-5.5.1-r1 printsupport
+# required by dev-qt/qtgui-5.5.1-r1::gentoo[xcb]
+# required by dev-qt/qtprintsupport-5.5.1::gentoo
+# required by dev-qt/qtwebkit-5.5.1-r1::gentoo[printsupport]
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+>=x11-libs/libxkbcommon-0.6.0 X
+
