@@ -1,0 +1,4 @@
+# required by lynis (argument)
+=app-forensics/lynis-1.3.5 **
+=app-forensics/lynis-1.6.4 **
+

@@ -1,0 +1,16 @@
+# required by app-backup/obnam-1.7.2
+# required by obnam (argument)
+=dev-python/larch-1.20131130 **
+# required by obnam (argument)
+=app-backup/obnam-1.7.2 **
+# required by app-backup/obnam-1.7.2
+# required by obnam (argument)
+=dev-python/tracing-0.8 **
+# required by dev-python/larch-1.20131130
+# required by app-backup/obnam-1.7.2
+# required by obnam (argument)
+=dev-python/ttystatus-0.23 **
+# required by app-backup/obnam-1.7.2
+# required by obnam (argument)
+=dev-python/cliapp-1.20140315 **
+

@@ -1,0 +1,17 @@
+# required by dev-ml/cryptokit-1.9
+# required by net-misc/sks-1.1.5
+# required by sks (argument)
+=dev-ml/findlib-1.4 ~arm
+# required by sks (argument)
+=net-misc/sks-1.1.5 **
+
+# required by net-misc/sks-1.1.5::gentoo
+# # required by @selected
+# # required by @world (argument)
+=dev-ml/cryptokit-1.11 **
+# # required by dev-ml/cryptokit-1.11::gentoo
+# # required by net-misc/sks-1.1.5::gentoo
+# # required by @selected
+# # required by @world (argument)
+=dev-ml/zarith-1.4.1 **
+#
