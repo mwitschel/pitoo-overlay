@@ -1,0 +1,32 @@
+app-crypt/certbot ~arm
+app-crypt/certbot-apache ~arm
+
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=dev-python/zope-component-4.3.0-r1 ~arm
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=dev-python/configargparse-0.12.0 ~arm
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=app-crypt/acme-0.15.0 ~arm
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=dev-python/configobj-5.0.6 ~arm
+# required by app-crypt/acme-0.14.1::gentoo
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=dev-python/pyrfc3339-1.0 ~arm
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=dev-python/parsedatetime-2.1 ~arm
+# required by dev-python/zope-component-4.3.0-r1::gentoo
+# required by app-crypt/certbot-0.14.1::gentoo
+# required by certbot (argument)
+=dev-python/namespace-zope-1 ~arm
+
+=dev-python/urllib3-1.21.1 ~arm
+=dev-python/chardet-3.0.3 ~arm
+=dev-python/requests-2.14.2 ~arm
+
+

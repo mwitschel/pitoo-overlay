@@ -1,0 +1,72 @@
+# required by zoneminder (argument)
+www-misc/zoneminder **
+# required by www-misc/zoneminder-1.27.0[mmap]
+# required by zoneminder (argument)
+#=dev-perl/Sys-Mmap-0.160.0 **
+=dev-perl/Sys-Mmap-0.170.0 **
+=dev-perl/URI-Encode-0.90.0 **
+
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/IO-Socket-Multicast-1.120.0 **
+# required by dev-perl/Template-Toolkit-2.260.0::gentoo
+# required by dev-perl/SOAP-WSDL-3.3.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Text-Autoformat-1.740.0 ~arm
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Data-UUID-1.221.0 **
+# required by dev-perl/SOAP-WSDL-3.3.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Template-Toolkit-2.260.0 ~arm
+# required by dev-perl/Class-Std-Fast-0.0.8-r1::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Class-Std-0.13.0 **
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Data-Dump-1.230.0 ~arm
+# required by dev-perl/SOAP-WSDL-3.3.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Class-Std-Fast-0.0.8-r1 **
+# required by dev-perl/Template-Toolkit-2.260.0::gentoo[mysql,-postgres]
+# required by dev-perl/SOAP-WSDL-3.3.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Template-DBI-2.650.0-r1 ~arm
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/SOAP-WSDL-3.3.0 **
+# required by dev-perl/Template-Toolkit-2.260.0::gentoo[vim-syntax]
+# required by dev-perl/SOAP-WSDL-3.3.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=app-vim/tt2-syntax-1.13-r1 ~arm
+# required by dev-perl/Text-Autoformat-1.740.0::gentoo
+# required by dev-perl/Template-Toolkit-2.260.0::gentoo
+# required by dev-perl/SOAP-WSDL-3.3.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/Text-Reform-1.200.0-r1 ~arm
+# required by dev-perl/IO-Socket-Multicast-1.120.0::gentoo
+# required by www-misc/zoneminder-1.30.0::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-perl/IO-Interface-1.90.0 **
+# required by www-misc/zoneminder-1.30.2::gentoo
+# required by zoneminder (argument)
+=dev-perl/URI-Encode-1.1.1 **
