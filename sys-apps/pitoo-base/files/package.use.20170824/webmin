@@ -1,0 +1,7 @@
+# required by media-gfx/graphviz-2.38.0-r1::gentoo
+# # required by dev-perl/GraphViz-2.200.0::gentoo
+# # required by net-dns/dnssec-tools-2.2::gentoo
+# # required by app-admin/webmin-1.791::gentoo
+# # required by webmin (argument)
+>=media-libs/gd-2.2.2 png fontconfig jpeg truetype
+

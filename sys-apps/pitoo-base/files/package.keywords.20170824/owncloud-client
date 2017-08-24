@@ -1,0 +1,6 @@
+# required by net-misc/owncloud-client-2.2.3::gentoo[qt5]
+# required by owncloud-client (argument)
+=dev-libs/qtkeychain-0.7.0 **
+# required by owncloud-client (argument)
+=net-misc/owncloud-client-2.2.3 **
+
