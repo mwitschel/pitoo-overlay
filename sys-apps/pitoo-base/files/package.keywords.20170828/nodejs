@@ -1,0 +1,9 @@
+=net-libs/nodejs-4.6.1 ~arm
+
+# required by net-libs/nodejs-7.0.0::gentoo
+# required by nodejs (argument)
+=net-libs/http-parser-2.6.2 ~arm
+# required by net-libs/nodejs-7.0.0::gentoo
+# required by nodejs (argument)
+=dev-libs/libuv-1.9.1-r1 ~arm
+
