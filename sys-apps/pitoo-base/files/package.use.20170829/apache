@@ -1,0 +1,1 @@
+www-servers/apache vhosts apache2_mpms_prefork -apache2_modules_http2 apache2_modules_proxy apache2_modules_proxy_http apache2_modules_proxy_wstunnel -threads

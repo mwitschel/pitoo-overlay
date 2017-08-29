@@ -1,0 +1,9 @@
+www-misc/zoneminder curl ffmpeg
+
+>=dev-lang/php-5.5.25 inifile mysqli
+# required by sys-auth/consolekit-1.1.0::gentoo
+# required by sys-auth/polkit-0.113::gentoo[-systemd]
+# required by www-misc/zoneminder-1.28.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/glib-2.44.1-r1 dbus

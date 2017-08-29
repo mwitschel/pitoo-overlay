@@ -1,0 +1,2 @@
+PORTAGE_RSYNC_EXTRA_OPTS="--password-file /etc/pfile"
+EMERGE_DEFAULT_OPTS="--with-bdeps y --buildpkg --buildpkg-exclude 'pitoo-base raspberrypi-sources' --exclude 'pitoo-base'"
