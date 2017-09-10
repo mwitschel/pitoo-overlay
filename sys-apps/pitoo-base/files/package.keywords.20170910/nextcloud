@@ -1,0 +1,4 @@
+www-apps/nextcloud
+ev-php/pecl-apcu **
+# required by pecl-apcu (argument)
+=dev-lang/php-7.0.6 ~arm

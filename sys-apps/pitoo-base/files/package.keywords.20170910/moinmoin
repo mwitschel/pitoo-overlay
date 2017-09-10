@@ -1,0 +1,9 @@
+# required by moinmoin (argument)
+=www-apps/moinmoin-1.9.7-r1 ~arm
+# required by www-apps/moinmoin-1.9.7-r1
+# required by moinmoin (argument)
+=dev-python/werkzeug-0.9.4 ~arm
+# required by www-apps/moinmoin-1.9.7-r1
+# required by moinmoin (argument)
+=dev-python/flup-1.0.2-r1 ~arm
+
