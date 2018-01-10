@@ -1,0 +1,24 @@
+Title: New Hosts for Pitoo
+Author: Matthias Witschel
+Content-Type: text/plain
+Posted: 2018-01-10
+Revision: 1
+News-Item-Format: 1.0
+
+I was forced to make some changes to the hosting infrastructure.
+Due to the nature of eselect-pitoo and make.conf, you need
+to do some steps manually to use the new adresses.
+Please note, that there might be additional changes in
+the near future.
+
+Please do the following to recieve updated packages and snapshots 
+from the new server:
+
+1. pull overlay from git if not allready done
+2. emerge -u eselect-pitoo
+3. emerge -u pitoo-base
+4. etc-update or dispatch-conf to merge new make.conf etc...
+5. eselect pitoo fetch
+
+now you should be set to carry on as ususal...
+
