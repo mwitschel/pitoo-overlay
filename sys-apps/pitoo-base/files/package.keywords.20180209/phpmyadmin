@@ -1,0 +1,3 @@
+# required by phpmyadmin (argument)
+=dev-db/phpmyadmin-4.1.4 **
+=dev-db/phpmyadmin-4.4.3 **
