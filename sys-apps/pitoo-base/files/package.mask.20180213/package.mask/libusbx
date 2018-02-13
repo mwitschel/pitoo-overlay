@@ -1,0 +1,4 @@
+# move dev-libs/libusbx dev-libs/libusb
+#dev-libs/libusb
+#=dev-libs/libusbx-1.0.17
+
