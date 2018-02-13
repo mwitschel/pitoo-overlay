@@ -1,6 +1,0 @@
-# required by app-misc/geneweb-6.08-r1::gentoo
-# required by geneweb (argument)
-=dev-ml/camlp5-7.00 **
-# required by geneweb (argument)
-=app-misc/geneweb-6.08-r1 **
-

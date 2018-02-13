@@ -1,5 +1,0 @@
-# required by net-mail/dovecot-2.2.27::pitoo[xcrypt]
-# required by @selected
-# required by @world (argument)
-=sys-libs/libxcrypt-2.4 **
-
