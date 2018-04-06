@@ -1,0 +1,6 @@
+# required by restart-services (argument)
+=app-admin/restart-services-0.14.1 **
+# required by app-admin/restart-services-0.14.1::gentoo
+# required by restart-services (argument)
+=app-admin/lib_users-0.10 ~arm
+
