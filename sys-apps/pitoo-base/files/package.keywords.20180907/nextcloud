@@ -1,0 +1,3 @@
+www-apps/nextcloud ~arm
+dev-php/pecl-apcu **
+dev-php/pecl-apcu_pc **
