@@ -1,0 +1,6 @@
+# required by raspberrypi-firmware (argument)
+# # /usr/portage/profiles/package.mask:
+# # Michael Weber <xmw@gentoo.org> (17 Jul 2013)
+# # Upstream next versions
+=sys-boot/raspberrypi-firmware-1.20160309
+#
