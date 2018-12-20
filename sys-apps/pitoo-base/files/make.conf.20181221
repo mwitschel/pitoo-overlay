@@ -1,0 +1,42 @@
+# The pitoo make.conf
+CFLAGS="-O2 -pipe -march=armv6j -mfpu=vfp -mfloat-abi=hard"
+CXXFLAGS="${CFLAGS}"
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult http://www.gentoo.org/doc/en/change-chost.xml before changing.
+cHOST="armv6j-hardfloat-linux-gnueabi"
+#FEATURES="buildpkg getbinpkg"
+#FEATURES="candy"
+
+#EMERGE_DEFAULT_OPTS="--with-bdeps n --getbinpkg --usepkg-exclude 'pitoo-base raspberrypi-sources' --buildpkg-exclude 'pitoo-base raspberrypi-sources'"
+
+source /etc/portage/make.conf.role
+
+USE="acl python ipv6 alsa ftp imap jabber clamav nls syslog wifi calendar jpg ssl vim-syntax -kde -gnome sqlite -systemd sasl mysql -dbus -X -policykit -dbus -php_targets_php5-6 -php_targets_php7-0 libav threads vhosts"
+
+PORTDIR="/usr/portage"
+PORTDIR_OVERLAY="/usr/pitoo/overlay"
+PKGDIR="/usr/pitoo/packages"
+DISTDIR="/usr/pitoo/distfiles"
+
+PYTHON_TARGETS="python2_7 python3_5 python3_6"
+PYTHON_SINGLE_TARGET="python3_5"
+
+PHP_TARGETS="php7-1 php7-2"
+
+###ACCEPT_KEYWORDS="~arm"
+
+# X11 section
+INPUT_DEVICES="evdev"
+VIDEO_CARDS=""
+
+# RUBY
+#TARGETS="ruby19"
+
+# This is the build environment so we need sync host:
+#SYNC="rsync://mwnet.witschel.zone/portage"
+#SYNC="rsync://rsync@falcon.witschel.zone/Web/portage"
+PORTAGE_RSYNC_EXTRA_OPTS="--password-file /etc/pfile"
+PORTDIR="/usr/portage"
+
+# Package Host
+PORTAGE_BINHOST="http://mwnet.witschel.zone/pitoo_packages"
