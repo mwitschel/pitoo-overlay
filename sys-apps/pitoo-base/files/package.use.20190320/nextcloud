@@ -1,0 +1,5 @@
+# required by www-apps/owncloud-5.0.12
+# required by owncloud (argument)
+dev-lang/php curl gd truetype intl
+
+dev-php/pecl-apcu lock_pthreadrw mmap 
