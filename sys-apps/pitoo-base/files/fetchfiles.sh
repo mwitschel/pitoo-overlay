@@ -2,7 +2,7 @@
 
 date=$(date +%Y%m%d)
 
-dirs="package.use package.mask package.keywords package.unmask sets"
+dirs="package.use package.mask package.keywords package.unmask package.license sets"
 
 cp -v /etc/portage/make.conf /usr/pitoo/overlay/sys-apps/pitoo-base/files/make.conf.$date
 cp -v /etc/portage/make.conf.buildsys /usr/pitoo/overlay/sys-apps/pitoo-base/files/make.conf.buildsys.$date

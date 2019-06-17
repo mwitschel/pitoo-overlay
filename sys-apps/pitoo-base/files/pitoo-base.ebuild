@@ -31,6 +31,7 @@ src_install() {
 	dodir "/etc/portage/package.mask"
 	dodir "/etc/portage/package.unmask"
 	dodir "/etc/portage/package.use"
+	dodir "/etc/portage/package.license"
 	dodir "/etc/portage/sets"
 
     insinto ${MODULEDIR}
@@ -42,7 +43,7 @@ src_install() {
         || die "failed to install make.conf.binsys"
 
 
-	for d in package.use package.keywords package.mask package.unmask sets
+	for d in package.use package.keywords package.mask package.unmask package.license package.env sets
 	do
 		for f in $(find ${FILESDIR}/${d}.${PVR}/* -printf "%f ")
 		do
