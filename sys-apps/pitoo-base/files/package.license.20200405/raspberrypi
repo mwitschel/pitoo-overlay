@@ -1,0 +1,3 @@
+sys-boot/raspberrypi-firmware raspberrypi-videocore-bin
+sys-kernel/raspberrypi-image raspberrypi-videocore-bin
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
