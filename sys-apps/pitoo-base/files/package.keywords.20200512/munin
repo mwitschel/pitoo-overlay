@@ -1,0 +1,12 @@
+net-analyzer/munin ~arm
+
+=dev-perl/Log-Log4perl-1.490.0 ~arm
+=dev-perl/Net-CIDR-0.180.0 ~arm
+=dev-perl/Net-Netmask-1.902.200 ~arm
+=dev-perl/Net-SNMP-6.0.1-r2 ~arm
+=dev-perl/Net-Server-2.9.0 ~arm
+=dev-perl/Cache-Cache-1.80.0 ~arm
+=dev-perl/HTML-Template-2.970.0 ~arm
+>=dev-perl/IPC-ShareLite-0.90.0 ~arm
+>=dev-perl/Crypt-DES-2.30.0 ~arm
+>=dev-perl/Crypt-Rijndael-1.20.0 ~arm
