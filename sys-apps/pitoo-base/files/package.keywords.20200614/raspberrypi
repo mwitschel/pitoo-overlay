@@ -1,0 +1,2 @@
+=sys-boot/raspberrypi-firmware-1.20190215 ~arm
+=sys-kernel/raspberrypi-image-4.14.98_p20190215 ~arm

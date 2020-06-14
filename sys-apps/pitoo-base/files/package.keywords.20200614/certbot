@@ -1,0 +1,12 @@
+# required by certbot (argument)
+=app-crypt/certbot-1.4.0 ~arm
+# required by app-crypt/certbot-0.21.1::gentoo
+# required by certbot (argument)
+=app-crypt/acme-1.4.0 ~arm
+=dev-python/parsedatetime-2.4-r1 ~arm
+=dev-python/josepy-1.3.0 ~arm
+=dev-python/distro-1.0.4-r1 ~arm
+=dev-python/pyrfc3339-1.1 ~arm
+=dev-python/configargparse-1.1 ~arm
+=dev-python/configobj-5.0.6 ~arm
+=dev-python/zope-component-4.4.1 ~arm
