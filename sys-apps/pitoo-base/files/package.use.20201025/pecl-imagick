@@ -1,0 +1,3 @@
+# required by pecl-imagick (argument)
+>=media-gfx/imagemagick-6.9.7.4 -openmp xml
+
