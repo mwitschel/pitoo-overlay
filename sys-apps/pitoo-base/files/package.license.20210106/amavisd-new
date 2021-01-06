@@ -1,0 +1,10 @@
+# required by mail-filter/amavisd-new-2.11.1-r3::gentoo
+# required by amavisd-new (argument)
+>=app-arch/lha-114i-r9 lha
+# required by mail-filter/amavisd-new-2.11.1-r3::gentoo
+# required by amavisd-new (argument)
+>=app-arch/unarj-2.65 arj
+# required by mail-filter/amavisd-new-2.11.1-r3::gentoo
+# required by amavisd-new (argument)
+>=app-arch/unrar-5.9.2 unRAR
+
