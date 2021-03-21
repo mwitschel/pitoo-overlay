@@ -1,0 +1,8 @@
+# required by net-analyzer/suricata-6.0.1::gentoo[python_single_target_python3_8]
+# required by suricata (argument)
+>=dev-python/pyyaml-5.3.1-r1 python_targets_python3_8
+# required by dev-python/pyyaml-5.3.1-r1::gentoo[python_targets_python3_7,-python_targets_python3_9,libyaml,python_targets_python3_8,python_targets_python3_6]
+# required by net-analyzer/suricata-6.0.1::gentoo[python_single_target_python3_8]
+# required by suricata (argument)
+>=dev-python/cython-0.29.21-r1 python_targets_python3_8
+
