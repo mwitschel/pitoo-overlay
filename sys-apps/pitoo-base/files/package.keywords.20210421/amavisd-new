@@ -1,0 +1,12 @@
+=mail-filter/amavisd-new-2.12.0-r5 *
+=app-arch/arc-5.21p *
+=app-arch/p7zip-16.02-r4 ~arm
+=net-mail/ripole-0.2.2 *
+=app-arch/zoo-2.10-r5 ~arm
+=net-mail/tnef-1.4.18 *
+>=dev-perl/MIME-tools-5.415 ~arm
+=dev-perl/Unix-Syslog-1.100.0-r2 *
+=dev-perl/File-LibMagic-1.150.0 *
+=dev-perl/BerkeleyDB-0.550.0 *
+=dev-perl/Convert-BinHex-1.125.0 *
+=app-arch/arj-3.10.22-r7 ~arm
