@@ -3,8 +3,8 @@
 # $Header: $
 
 EAPI=7
-
 inherit eutils
+
 
 DESCRIPTION="pitoo base files and setup"
 HOMEPAGE="http://noneyet/"
