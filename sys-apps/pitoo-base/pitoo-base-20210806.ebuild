@@ -43,8 +43,8 @@ src_install() {
 		|| die "failed to install make.conf.binsys"
 #	newins "make.conf.stage" "make.conf.stage" \
 #		|| die "failed to install make.conf.stage"
-	newins "make.conf.hwlocal" "make.conf.hwlocal" \
-		|| die "failed to install make.conf.hwlocal"
+#	newins "make.conf.hwlocal" "make.conf.hwlocal" \
+#		|| die "failed to install make.conf.hwlocal"
 
 	for d in package.use package.accept_keywords package.mask package.unmask package.license sets
 	do
