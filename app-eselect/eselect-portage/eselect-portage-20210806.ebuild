@@ -6,7 +6,7 @@ EAPI=7
 
 DESCRIPTION="portage and overlay snapshot module for eselect"
 HOMEPAGE="https://git.witschel.zone/gbd/eselect-portage"
-SRC_URI="https://git.witschel.zone/gbd/eselect-portage/-/archive/20210714/eselect-portage-20210806.tar.gz"
+SRC_URI="https://git.witschel.zone/gbd/eselect-portage/-/archive/20210806/eselect-portage-20210806.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
