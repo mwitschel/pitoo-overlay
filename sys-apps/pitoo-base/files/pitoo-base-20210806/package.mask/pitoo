@@ -68,3 +68,17 @@ dev-db/mysql
 # app-eselect/eselect-portage!
 app-admin/eselect-pitoo
 app-eselect/eselect-pitoo
+###net-mail/dovecot
+net-mail/dovecotx
+<sys-devel/gcc-10.3.0
+>sys-devel/gcc-10.3.0
+
+dev-db/mariadb:10.5
+dev-db/mysql
+>dev-db/mysql-connector-c-8.0.22
+# Distro specific snapshot eselect modules
+# are deprecated. Switching to GBD tools.
+# Please deinstall eselect-pitoo and emerge
+# app-eselect/eselect-portage!
+app-admin/eselect-pitoo
+app-eselect/eselect-pitoo

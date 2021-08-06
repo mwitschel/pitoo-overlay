@@ -41,8 +41,8 @@ src_install() {
 		|| die "failed to install make.conf.buildsys"
 	newins "make.conf.binsys" "make.conf.binsys" \
 		|| die "failed to install make.conf.binsys"
-	newins "make.conf.stage" "make.conf.stage" \
-		|| die "failed to install make.conf.stage"
+#	newins "make.conf.stage" "make.conf.stage" \
+#		|| die "failed to install make.conf.stage"
 	newins "make.conf.hwlocal" "make.conf.hwlocal" \
 		|| die "failed to install make.conf.hwlocal"
 
