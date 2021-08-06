@@ -10,7 +10,7 @@ SRC_URI="https://git.witschel.zone/gbd/eselect-portage/-/archive/20210714/eselec
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="arm"
 IUSE=""
 
 DEPEND=""
