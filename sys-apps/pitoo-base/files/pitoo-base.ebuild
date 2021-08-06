@@ -17,7 +17,7 @@ IUSE=""
 
 DEPEND=""
 # will not work so nicely.
-RDEPEND="app-admin/eselect-pitoo"
+RDEPEND="app-eselect/eselect-pitoo"
 
 src_install() {
 
