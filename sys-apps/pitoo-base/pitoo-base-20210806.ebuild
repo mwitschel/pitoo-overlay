@@ -6,7 +6,7 @@ SRC_URI="http://packages.witschel.zone:5467/snapshots/pitoo-base-20210806.tgz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="arm"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
