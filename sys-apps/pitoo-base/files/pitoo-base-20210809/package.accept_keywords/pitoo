@@ -1,0 +1,104 @@
+=mail-filter/amavisd-new-2.12.0-r5 *
+=app-arch/arc-5.21p *
+=app-arch/p7zip-16.02-r8 ~arm
+=net-mail/ripole-0.2.2 *
+=app-arch/zoo-2.10-r5 ~arm
+=net-mail/tnef-1.4.18 *
+>=dev-perl/MIME-tools-5.415 ~arm
+=dev-perl/Unix-Syslog-1.100.0-r2 *
+=dev-perl/File-LibMagic-1.150.0 *
+=dev-perl/BerkeleyDB-0.640.0 ~arm
+=dev-perl/Convert-BinHex-1.125.0 *
+=app-arch/arj-3.10.22-r7 ~arm
+=app-admin/apachetop-0.19.7 **
+=net-misc/aria2-1.35.0 ~arm
+# required by certbot (argument)
+=app-crypt/certbot-1.16.0 ~arm
+# required by app-crypt/certbot-0.21.1::gentoo
+# required by certbot (argument)
+=app-crypt/acme-1.16.0 ~arm
+=dev-python/parsedatetime-2.6 ~arm
+=dev-python/josepy-1.8.0 ~arm
+=dev-python/pyrfc3339-1.1 ~arm
+=dev-python/configargparse-1.4.1 ~arm
+=dev-python/zope-component-4.4.1 ~arm
+=net-im/coturn-4.5.2 **
+=net-print/splix-2.0.0_p20130826-r1 **
+=net-analyzer/darkstat-3.0.719-r3 *
+# required by dokuwiki (argument)
+www-apps/dokuwiki **
+
+net-analyzer/fail2ban ~arm
+# required by flvstreamer (argument)
+=media-video/flvstreamer-2.1c **
+# required by geneweb (argument)
+=app-misc/geneweb-6.08.01 **
+
+# needed by gentoo-mirror-sync
+=app-admin/gentoo-rsync-mirror-1.0-r6 **
+
+# required by ifplugd (argument)
+=sys-apps/ifplugd-0.28-r11 ~arm
+
+=net-analyzer/iftop-1.0_pre4-r4 ~arm
+
+=app-misc/jq-1.6-r3 ~arm
+# required by raspberrypi-sources (argument)
+sys-kernel/raspberrypi-sources ~arm
+
+# required by net-mail/dovecot-2.2.27::pitoo[xcrypt]
+# required by @selected
+# required by @world (argument)
+#=sys-libs/libxcrypt-4.4.17 ~arm
+
+# local changes to keywords
+www-apps/mantisbt **
+net-analyzer/munin ~arm
+
+=dev-perl/Log-Log4perl-1.490.0 ~arm
+=dev-perl/Net-CIDR-0.180.0 ~arm
+=dev-perl/Net-Netmask-1.902.200 ~arm
+=dev-perl/Net-SNMP-6.0.1-r3 ~arm
+=dev-perl/Net-Server-2.9.0 ~arm
+=dev-perl/Cache-Cache-1.80.0 ~arm
+=dev-perl/HTML-Template-2.970.0 ~arm
+>=dev-perl/IPC-ShareLite-0.90.0 ~arm
+>=dev-perl/Crypt-DES-2.30.0 ~arm
+>=dev-perl/Crypt-Rijndael-1.20.0 ~arm
+www-apps/nextcloud ~arm
+dev-php/pecl-apcu **
+dev-php/pecl-apcu_pc **
+
+# required by www-servers/nginx-1.4.1-r5[vim-syntax]
+# required by nginx (argument)
+app-vim/nginx-syntax ~arm
+# required by nginx (argument)
+www-servers/nginx ~arm
+=mail-filter/opendkim-2.10.3-r26 ~arm
+dev-java/oracle-jdk-bin ~arm
+# required by pecl-imagick (argument)
+=dev-php/pecl-imagick-3.4.4 **
+
+dev-php/pecl-smbclient ~arm
+sys-boot/raspberrypi-firmware ~arm
+sys-kernel/raspberrypi-image ~arm
+# required by restart-services (argument)
+=app-admin/restart-services-0.15.2 **
+# required by app-admin/restart-services-0.14.1::gentoo
+# required by restart-services (argument)
+=app-admin/lib_users-0.14-r1 ~arm
+=media-gfx/sane-frontends-1.0.14-r6 **
+net-wireless/rtl-sdr ~arm
+=net-misc/sshpass-1.06 ~arm
+=net-analyzer/suricata-6.0.1 **
+=net-libs/libhtp-0.5.36 ~arm
+=net-libs/libnetfilter_queue-1.0.3 ~arm
+net-proxy/tinyproxy ~arm
+
+# required by tt-rss (argument)
+www-apps/tt-rss **
+
+=net-firewall/ufw-0.36 **
+# required by w3m (argument)
+=www-client/w3m-0.5.3_p20180125 ~arm
+
