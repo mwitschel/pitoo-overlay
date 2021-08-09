@@ -6,7 +6,7 @@ SRC_URI="https://git.witschel.zone/gbd/eselect-portage/-/archive/${PV}/eselect-p
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="arm arm64 amd64 x86"
 IUSE=""
 
 DEPEND=""
